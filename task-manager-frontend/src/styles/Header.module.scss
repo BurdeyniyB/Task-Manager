@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ccc;
+  
+    input[type="text"] {
+      width: 200px;
+      padding: 0.5rem;
+      flex: 1;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  
+    select {
+      padding: 0.5rem;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+  
+    button {
+      width: 100px;
+      background-color: #0066ff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #0052cc;
+      }
+    }
+  
+    .createBtn {
+      width: 35px;
+      height: 35px;
+      padding: 0;
+      font-size: 18px;
+      font-weight: 900;
+      border-radius: 50%;
+      background-color: #e2d625;
+  
+      &:hover {
+        background-color: #8d8f00;
+      }
+    }
+  }
+  
